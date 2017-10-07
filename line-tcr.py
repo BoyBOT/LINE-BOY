@@ -28,7 +28,7 @@ ki = LINETCR.LINE()
 ki.login(token="authoken kamu")
 
 kk = LINETCR.LINE()
-kk.login(token="autotoken kamu")
+kk.login(token="authoken kamu")
 
 kc = LINETCR.LINE()
 kc.login(token="authoken kamu")
