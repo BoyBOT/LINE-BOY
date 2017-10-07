@@ -1,36 +1,36 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
+import LINE-BOY
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
-#cl = LINETCR.LINE()
+#cl = LINE-BOY.LINE()
 #cl.login(qr=True)
 #cl.loginResult()
 
-#ki = LINETCR.LINE()
+#ki = LINE-BOY.LINE()
 #ki.login(qr=True)
 #ki.loginResult()
 
-#kk = LINETCR.LINE()
+#kk = LINE-BOY.LINE()
 #kk.login(qr=True)
 #kk.loginResult()
 
-#kc = LINETCR.LINE()
+#kc = LINE-BOY.LINE()
 #kc.login(qr=True)
 #kc.loginResult()
 
-cl = LINETCR.LINE()
+cl = LINE-BOY.LINE()
 cl.login(token="authoken kamu")
 
-ki = LINETCR.LINE()
+ki = LINE-BOY.LINE()
 ki.login(token="authoken kamu")
 
-kk = LINETCR.LINE()
+kk = LINE-BOY.LINE()
 kk.login(token="authoken kamu")
 
-kc = LINETCR.LINE()
+kc = LINE-BOY.LINE()
 kc.login(token="authoken kamu")
 
 cl
