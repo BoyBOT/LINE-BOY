@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import LINE-BOY
-from LINETCR.lib.curve.ttypes import *
+from LINE-BOY.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
@@ -22,16 +22,16 @@ import time,random,sys,json,codecs,threading,glob,re
 #kc.loginResult()
 
 cl = LINE-BOY.LINE()
-cl.login(token="authoken kamu")
+cl.login(token="2EPdcasooadcvuRiYbpT6MQYaSjjOL4Nk3JqIoJEFcvs5q09sxiy1K3+JekLuSoZFyXiBF403nq4JuM8bejGnv3FoV+hu6PUmhYIU/ikXURm0rSqZvc8TjrPUO5dYCLiV/Grs5kQHvwsUM3/C9TMXwdB04t89/1O/w1cDnyilFU=")
 
 ki = LINE-BOY.LINE()
-ki.login(token="authoken kamu")
+ki.login(token="2EPdcasooadcvuRiYbpT6MQYaSjjOL4Nk3JqIoJEFcvs5q09sxiy1K3+JekLuSoZFyXiBF403nq4JuM8bejGnv3FoV+hu6PUmhYIU/ikXURm0rSqZvc8TjrPUO5dYCLiV/Grs5kQHvwsUM3/C9TMXwdB04t89/1O/w1cDnyilFU=")
 
 kk = LINE-BOY.LINE()
-kk.login(token="authoken kamu")
+kk.login(token="2EPdcasooadcvuRiYbpT6MQYaSjjOL4Nk3JqIoJEFcvs5q09sxiy1K3+JekLuSoZFyXiBF403nq4JuM8bejGnv3FoV+hu6PUmhYIU/ikXURm0rSqZvc8TjrPUO5dYCLiV/Grs5kQHvwsUM3/C9TMXwdB04t89/1O/w1cDnyilFU=")
 
 kc = LINE-BOY.LINE()
-kc.login(token="authoken kamu")
+kc.login(token="2EPdcasooadcvuRiYbpT6MQYaSjjOL4Nk3JqIoJEFcvs5q09sxiy1K3+JekLuSoZFyXiBF403nq4JuM8bejGnv3FoV+hu6PUmhYIU/ikXURm0rSqZvc8TjrPUO5dYCLiV/Grs5kQHvwsUM3/C9TMXwdB04t89/1O/w1cDnyilFU=")
 
 cl
 
